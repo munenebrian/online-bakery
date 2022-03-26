@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewpoint" content="with=device-width, initial-scale=1.0">
+        <title>SWEETART CAKES AND EVENTS</title>
+            <link rel="stylesheet" href="style.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Hurricane&family=Lato:ital,wght@0,100;1,100;1,300;1,900&family=Red+Hat+Mono:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+        </head>
+    <body>
+<section class="sub-header">
+        <nav>
+         <div class="nav-links" id="navLinks">
+            <i class="fa fa-times-circle" aria-hidden="true" onclick="hideMenu()"></i>
+             <ul>
+                 <li><a href="">HOME</a></li>
+                 <li><a href="">ABOUT</a></li>
+                 <li><a href="">CAKES</a></li>
+                 <li><a href="">BLOG</a></li>
+                 <li><a href="">CONTACT</a></li>
+             </ul>
+         </div>
+         <i class="fa fa-caret-down" aria-hidden="true" onclink="showMenu()"></i>
+        </nav>
+    <h1>Our work</h1>
+    </section>
+    <!----course-->
+    <section class="course">
+        <h1>Multiple Flavors We Offer </h1>
+        <p>raspberry, pina colada, chocolate-fudge, velvet cakes, forest cakes, passion-pineapple and many more</p>
+
+        <div class="row">
+          
+            <div class="course-col">
+                <h3>birthday cakes</h3>
+                <p>we design birthday cakes to a customer's custom and choice of flavor</p>
+            </div>
+            <div class="course-col">
+                <h3>wedding cakes</h3>
+                <p>we make wedding cakes from as small as a three-tied wedding cake setup</p>
+            </div>
+            <div class="course-col">
+                <h3>ocassional cakes</h3>
+                <p>we design cakes our cakes for a specific ocassion; graduation, retirement, job promotion etc. you name it we gat it</p>
+            </div>
+        </div>
+    </section>
+    <!---facilities-->
+    <section class="facilities">
+        <h1>our best flavors</h1>
+        <p>most of our customers have loved these flavors more than the others</p>
+    
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/images (3).jpg" >
+                <h3>pina colada cake</h3>
+                <p>pina colada is a blend of pineapple flavor and coconut </p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/download.jpg" >
+                <h3>chocolate-fudge cake</h3>
+                <p>our chocolate-fudge cake is full of fudge cream</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/images (4).jpg" >
+                <h3>chocolate-mint cake</h3>
+                <p>these are two flavors combined to bring the best out of the two flavors</p>
+            </div>
+        </div>
+    
+    </section>
+
+
+
+    <!---footer----->
+
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>we are on facebook, twitter and fa-instagram <br>we are located along thika road, Garden City</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+    </div>
+    <p>made with Nesh</p>
+</section>
+
+<!--------Javascript for toogle menu------->
+<script>
+
+        var navlinks = document.getElementById("navlinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "0px";
+        }
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewpoint" content="with=device-width, initial-scale=1.0">
+        <title>SWEETART CAKES AND EVENTS</title>
+            <link rel="stylesheet" href="style.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Hurricane&family=Lato:ital,wght@0,100;1,100;1,300;1,900&family=Red+Hat+Mono:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+        </head>
+    <body>
+<section class="sub-header">
+        <nav>
+         <div class="nav-links" id="navLinks">
+            <i class="fa fa-times-circle" aria-hidden="true" onclick="hideMenu()"></i>
+             <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="cakes.html">CAKES</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+             </ul>
+         </div>
+         <i class="fa fa-caret-down" aria-hidden="true" onclink="showMenu()"></i>
+        </nav>
+    <h1>Contact Us</h1>
+    </section>
+<!--contact us-->
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.634892721026!2d36.84958045005756!3d-1.2234715357914843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1605394da5dd%3A0x5408e2a9afd6e41e!2sGarden%20Estate%2C%20Nairobi!5e0!3m2!1sen!2ske!4v1648211854958!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+<section class="contact-us">
+
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+                    <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+                  </svg>
+                <span>
+                    <h5>Garden city Road, garden city building</h5>
+                    <p>nairobi, juja IN</p>
+                </span>
+            </div>
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                  </svg>
+                <span>
+                    <h5>0721408076, 0722306788</h5>
+                    <p>Monday to Saturday, 8AM to 9PM</p>
+                    <p>nairobi, juja IN</p>
+                </span>
+            </div>
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                    <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+                  </svg>
+                <span>
+                    <h5>muneneneshy@gmail.com</h5>
+                    <p>Email Us Your Query</p>
+                </span>
+            </div>
+        </div>
+<div class="contact-col">
+            <form action="form-handler.php" method="post">
+                <input type="text" name="name" placeholder="Enter Your name" required>
+                <input type="email" name="email" placeholder="Enter Address" required>
+                <input type="text" name="order" placeholder="Enter Your order" required>
+                <textarea rows="8" name="message" placeholder="Message required"></textarea>
+                <button type="submit" class="hero-btn red-btn">Send Message
+                </button>
+            </form>
+</div>
+    </div>
+</section>
+
+
+    <!---footer----->
+
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>we are on facebook, twitter and fa-instagram <br>we are located along thika road, Garden City</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+    </div>
+    <p>made with Nesh</p>
+</section>
+
+<!--------Javascript for toogle menu------->
+<script>
+
+        var navlinks = document.getElementById("navlinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "0px";
+        }
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewpoint" content="with=device-width, initial-scale=1.0">
+        <title>SWEETART CAKES AND EVENTS</title>
+            <link rel="stylesheet" href="style.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Hurricane&family=Lato:ital,wght@0,100;1,100;1,300;1,900&family=Red+Hat+Mono:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+        </head>
+    <body>
+<section class="sub-header">
+        <nav>
+         <div class="nav-links" id="navLinks">
+            <i class="fa fa-times-circle" aria-hidden="true" onclick="hideMenu()"></i>
+             <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="cakes.html">CAKES</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+             </ul>
+         </div>
+         <i class="fa fa-caret-down" aria-hidden="true" onclink="showMenu()"></i>
+        </nav>
+    <h1>About Us</h1>
+    </section>
+<!--about us content-->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We are nairobi's best cakes business </h1>
+            <p>We are sweetart cakes and events. <br>We provide; party tents,birthday cakes, baby showers, bridal showers and many more. <br>
+                You can find us on our facebook, twitter or instagram accounts.</p>
+            <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="images/maxresdefault.jpg">
+        </div>
+    </div>
+</section>
+
+
+    <!---footer----->
+
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>we are on facebook, twitter and fa-instagram <br>we are located along thika road, Garden City</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+    </div>
+    <p>made with Nesh</p>
+</section>
+
+<!--------Javascript for toogle menu------->
+<script>
+
+        var navlinks = document.getElementById("navlinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "0px";
+        }
+
+</script>
+
+</body>
+</html>
